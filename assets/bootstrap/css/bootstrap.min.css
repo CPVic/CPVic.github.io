@@ -14,7 +14,8 @@
 	text-decoration: blink;
 	background-color: rgba(0,0,0,1);
 	filter: Glow;
-}@media (prefers-reduced-motion:no-preference){:root{scroll-behavior:smooth}}body{
+}
+@media (prefers-reduced-motion:no-preference){:root{scroll-behavior:smooth}}body{
 	margin: 0;
 	font-family: var(--bs-body-font-family);
 	font-size: var(--bs-body-font-size);
