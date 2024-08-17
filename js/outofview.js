@@ -1,4 +1,4 @@
-;(function($) {
+(function($) {
   $.outOfView = {
       init: function() {
         $("[data-outofview]").css('transition', 'none').addClass('outofview');
