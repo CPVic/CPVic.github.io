@@ -9,14 +9,6 @@ blockquote,body,button,dd,div,dl,dt,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,sel
     max-width: 100%
 }.responsive-video.square{padding-bottom:120%;max-width:initial}.responsive-video embed,.responsive-video iframe,.responsive-video object{position:absolute;top:0;left:0;width:100%;height:100%}video{
     width: 100%
-}audio{
-    display: inline-block;
-    box-sizing: border-box;
-    background-color: #000000;
-    padding: 0 20px 30px;
-    height: 95px;
-    width: 50%;
-    margin: 10px
 }.rule{padding:5px 0;width:100%;margin:7px 0}.rule hr{margin:0;padding:0;border:none;border-top:1px solid #ddd;width:100%}form.paypal-button,form.paypal-image{display:inline-block;padding:0;overflow:hidden}form.paypal-button{background-color:silver}form.paypal-button button{padding:.5em 1em;-webkit-appearance:none;-moz-appearance:none;appearance:none;border:0;border-radius:0;background:0 0;line-height:1;color:inherit;cursor:inherit;display:block;margin:0;width:100%;height:100%}form.paypal-image input[type=image]{width:100%;margin:0}textarea{resize:none}.label-container span.text-element{display:inline-block;font-size:1em}.bg-full-screen-container{
     position: fixed;
     top: 0;
