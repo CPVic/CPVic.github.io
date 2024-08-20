@@ -16,15 +16,17 @@
   <link href="css/main.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Aclonica%7CAdamina" rel="stylesheet" type="text/css">
   <style type="text/css">
+  @import url("webfonts/lato/stylesheet.css");
+
   body,td,th {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #3EF506;
 }
 body {
-    background-color: #000000;
-    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-    color: #3EF506;
-    font-size: xx-small;
+    font-family: lato;
+    color: #F5F0F0;
+    font-size: small;
+    width: auto;
 }
 a:link {
     color: #6A0670;
@@ -49,7 +51,7 @@ h1 {
 
 <body text="#3EF506" link="#6A0670" vlink="#3EF506" alink="#B2EB39">
 <nav class="container navbar">
-  <div class="container navigation-links">
+<div class="container navigation-links">
       <a class="link-text navlink" href="about.html" title="Chasing Phantoms Victoria About">About</a>
       <a class="link-text navlink" href="Listen.html" title="">Listen</a>
       <a class="link-text navlink" href="Construct.html">Photos</a>
@@ -63,17 +65,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 </script></div><a class="glyph mobile-nav-button" href="#!"><i class="coffeecup-icons-menu7"></i></a>
   </nav>
+<audio class="placeholder" title="Driven To This" preload="auto" controls="controls" autoplay="autoplay" >
+  <source src="Audio/11 - DRIVEN TO THIS.mp3" type="audio/mp3">
+</audio>
+    Driven To This
 <div class="container bg-full-screen-container">
   <video class="full-screen-video" title="Intro" preload="auto" muted="muted" autoplay="autoplay" loop="loop" >
       <source src="Videos/Renderlive.mp4" type="video/mp4">
       <source src="Videos/Renderlive.mp4" type="video/mp4">
   </video>
 </div>
-<audio class="placeholder" title="Driven To This" preload="auto" controls="controls" autoplay="autoplay" >
-        <source src="Audio/11 - DRIVEN TO THIS.mp3" type="audio/mp3">
-        Your browser does not support the audio element.
-  <p>Driven To This</p>
-      </audio>
 </body>
 
 </html>
