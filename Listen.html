@@ -35,23 +35,25 @@
 
 <body bgcolor="#000000">
 <nav class="container navbar">
-  <div class="container navigation-links">
-      <a class="link-text navlink" href="about.html" title="Chasing Phantoms Victoria About">About</a>
-      <a class="link-text navlink" href="Listen.html" title="">Listen</a>
-      <a class="link-text navlink" href="Construct.html">Photos</a>
-      <a class="link-text navlink" href="index.html">Home</a>
-  </div>
-  <div class="html-element navigation-code"><script>
-document.addEventListener("DOMContentLoaded", function(event) { 
-  $('.mobile-nav-button').click(function(e){
-      $('.navigation-links').toggleClass('show-menu');
-      $('body').css('overflow', $('.navigation-links').hasClass('show-menu') ? 'hidden' : 'auto');
-  });
-});
-</script></div><a class="glyph mobile-nav-button" href="#!"><i class="coffeecup-icons-menu7"></i></a>
+  <body bgcolor="#000000" text="#3EF506" link="#6A0670" vlink="#3EF506" alink="#B2EB39">
+<nav class="container navbar">
+    <div class="container navigation-links">
+        <a class="link-text navlink" href="about.html" title="Chasing Phantoms Victoria About">About</a>
+        <a class="link-text navlink" href="Listen.html" title="Listen to our music">Listen</a>
+        <a class="link-text navlink" href="Construct.html" title="Chasing Phantoms Photos">Photos</a>
+    </div>
+    <a class="glyph mobile-nav-button" href="#!"><i class="coffeecup-icons-menu7"></i></a>
 </nav>
-<script src="js/jquery.min.js"></script>
-<script src="js/outofview.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() { 
+    document.querySelector('.mobile-nav-button').addEventListener('click', function() {
+        var navLinks = document.querySelector('.navigation-links');
+        navLinks.classList.toggle('show-menu');
+        document.body.style.overflow = navLinks.classList.contains('show-menu') ? 'hidden' : 'auto';
+    });
+});
+</script>
     <main> <a href="index.html"><img src="logo copy.png" alt="" width="700" height="281" class="align-items-center"/></a>  
         <div></div>
 <iframe width="310" height="401" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https://soundcloud.com/chasingphantomsvictoria/chasing-phantoms-preacher?si=fed964a885f0424da225fc54b9982195&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharingauto_play=false&hide_related=true&show_comments=true&show_user=false&show_artwork=false&show_reposts=false&show_teaser=true&visual=true"></iframe> 
