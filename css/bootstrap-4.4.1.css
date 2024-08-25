@@ -38,7 +38,12 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    margin-top: 22px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding: inherit;
+    box-sizing: border-box;
 }
 
 html {
@@ -53,7 +58,6 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 body {
-    margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1rem;
     font-weight: 400;
@@ -613,7 +617,8 @@ pre code {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-right: -10px;
-    margin-left: 2px;
+    margin-left: 54px;
+    margin-top: 13px;
 }
 
 .no-gutters {
@@ -635,8 +640,9 @@ pre code {
 .col-xl-auto {
     position: relative;
     width: 100%;
-    padding-right: 3px;
-    padding-left: 0px;
+    padding-right: 0px;
+    padding-left: 51px;
+    padding-top: 46px;
 }
 
 .col {
@@ -7247,8 +7253,7 @@ button.bg-dark:focus {
 }
 
 .align-items-center {
-  -ms-flex-align: center !important;
-  align-items: center !important;
+    align-items: center !important;
 }
 
 .align-items-baseline {
