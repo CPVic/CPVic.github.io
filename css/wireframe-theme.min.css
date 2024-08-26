@@ -4,7 +4,7 @@ blockquote,body,button,dd,div,dl,dt,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,sel
 }body{
     min-height: 100vh;
     position: relative;
-    background-color: #0000;
+    background-color: #000000;
 }.form-container,.link-container,[class*=container]{min-width:10px}.link-container,label.label-container{display:block}.responsive-picture{width:100%;overflow:hidden;display:block}.responsive-picture picture{line-height:0;display:block}.responsive-picture img{width:100%;height:100%}.placeholder{
     text-align: center;
     padding-top: 0px;
