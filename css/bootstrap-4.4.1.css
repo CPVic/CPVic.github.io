@@ -39,7 +39,7 @@
 *::before,
 *::after {
     margin-top: 22px;
-    margin-right: 5px;
+    margin-right: -2px;
     margin-left: 5px;
     margin-bottom: 5px;
     padding: inherit;
