@@ -59,11 +59,14 @@ p.paragraph span.paragraph-text-13 {
 }
 
 a.link-text.navlink {
-  padding: 10px;
-  color: #8513b9;
-  text-decoration: none;
-  font-size: 20px;
-  font-family: 'Adamina', Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+    padding-top: 10px;
+    padding-right: 81px;
+    padding-left: 66px;
+    padding-bottom: 10px;
+    color: #8513b9;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Adamina', Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
 }
 
 a.link-text.navlink:visited {

@@ -40,9 +40,12 @@
 *::after {
     margin-top: 22px;
     margin-right: -2px;
-    margin-left: 5px;
+    margin-left: 3px;
     margin-bottom: 5px;
-    padding: inherit;
+    padding-top: inherit;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: inherit;
     box-sizing: border-box;
 }
 
@@ -612,7 +615,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
-    max-width: 1140px;
+    max-width: 1000px;
   }
 }
 
