@@ -1,40 +1,39 @@
 /* Text Elements */
-
 p.paragraph span.paragraph-text-1 {
-  font-size: 5rem;
+    font-size: 5rem;
 }
 
 p.paragraph span.paragraph-text-2 {
-  font-size: 2.1875rem;
+    font-size: 2.1875rem;
 }
 
 p.paragraph span.paragraph-text-3 {
-  font-size: 5.625rem;
+    font-size: 5.625rem;
 }
 
 p.paragraph span.paragraph-text-4 {
-  font-size: 3.5625rem;
+    font-size: 3.5625rem;
 }
 
 p.paragraph span.paragraph-text-5 {
-  font-size: 1.25rem;
+    font-size: 1.25rem;
 }
 
 p.paragraph span.paragraph-text-6 {
-  font-size: 3.5625rem;
+    font-size: 3.5625rem;
 }
 
 p.paragraph span.paragraph-text-7 {
-  color: #0e2;
+    color: #0e2;
 }
 
 p.paragraph span.paragraph-text-8 {
-  color: #520974;
+    color: #520974;
 }
 
 p.paragraph span.paragraph-text-9 {
-  color: #76f472;
-  font-family: 'Aclonica', cursive;
+    color: #76f472;
+    font-family: 'Aclonica', cursive;
 }
 
 p.paragraph span.paragraph-text-10 {
@@ -47,19 +46,19 @@ p.paragraph span.paragraph-text-10 {
 }
 
 p.paragraph span.paragraph-text-11 {
-  color: #0e2;
+    color: #0e2;
 }
 
 p.paragraph span.paragraph-text-12 {
-  color: #0e2;
+    color: #0e2;
 }
 
 p.paragraph span.paragraph-text-13 {
-  color: #0e2;
+    color: #0e2;
 }
 
 a.link-text.navlink {
-    padding-top: 10px;
+    padding-top: 19px;
     padding-right: 81px;
     padding-left: 66px;
     padding-bottom: 10px;
@@ -70,21 +69,16 @@ a.link-text.navlink {
 }
 
 a.link-text.navlink:visited {
-  color: #0e2;
+    color: #0e2;
 }
 
 /* Layout Elements */
-
 body.body-1 {
     background-color: #000000;
 }
 
 .container.navbar {
-    display: -webkit-box;
-    display: -webkit-flex;
     display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
     -ms-flex-pack: justify;
     -ms-flex-align: center;
     padding: 0 10px;
@@ -121,57 +115,55 @@ body.body-1 {
 }
 
 .html-element.navigation-code {
-  display: none;
+    display: none;
 }
 
 a.glyph.mobile-nav-button {
-  display: none;
+    display: none;
 }
 
 @media screen and (max-width: 37.5rem) {
-  /* Layout Elements */
-
-  .container.navigation-links {
-    position: fixed;
-    top: 65px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    visibility: hidden;
-    -webkit-flex-direction: column;
+    /* Layout Elements */
+    .container.navigation-links {
+        position: fixed;
+        top: 65px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        visibility: hidden;
+        -webkit-flex-direction: column;
         -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-pack: start;
-    -ms-flex-align: center;
-    background-color: #ffeebd;
-    opacity: 0;
-    -webkit-transition-duration: .3s;
-       -moz-transition-duration: .3s;
-         -o-transition-duration: .3s;
-            transition-duration: .3s;
+        flex-direction: column;
+        -ms-flex-pack: start;
+        -ms-flex-align: center;
+        background-color: #ffeebd;
+        opacity: 0;
+        -webkit-transition-duration: .3s;
+        -moz-transition-duration: .3s;
+        -o-transition-duration: .3s;
+        transition-duration: .3s;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -moz-box-pack: start;
+        justify-content: flex-start;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        align-items: center;
+    }
 
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-       -moz-box-orient: vertical;
-       -moz-box-direction: normal;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-       -moz-box-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-       -moz-box-align: center;
-            align-items: center;
-  }
+    .container.navigation-links.show-menu {
+        visibility: visible;
+        opacity: 1;
+    }
 
-  .container.navigation-links.show-menu {
-    visibility: visible;
-    opacity: 1;
-  }
-
-  a.glyph.mobile-nav-button {
-    display: block;
-    font-size: 34px;
-    line-height: 1;
-  }
+    a.glyph.mobile-nav-button {
+        display: block;
+        font-size: 34px;
+        line-height: 1;
+    }
 }
